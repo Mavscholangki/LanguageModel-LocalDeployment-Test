@@ -3,8 +3,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TextStreamer
 # 本地模型路径
 model_name = "/mnt/data/chatglm3-6b"
 
-# 测试问题（你可以换用补充材料2中的其他问题）
+# 测试问题
 prompt = "请说出以下两句话区别在哪里？\n1、冬天：能穿多少穿多少\n2、夏天：能穿多少穿多少"
+# prompt = "他知道我知道你知道他不知道吗？ 这句话里，到底谁不知道"
 
 # 加载分词器和模型
 print("正在加载模型，请稍等...")
